@@ -1,7 +1,6 @@
 import "./home.style.css";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Link } from "react-router-dom";
 import {
   getAllGames,
   getByName,
@@ -66,33 +65,29 @@ function Home() {
 
   return (
     <div className="home">
-      <h2 className="home-title-text">I N I C I O</h2>
-      <Link to={`/create`}>
-        <button>Crear</button>
-      </Link>
-
-      <select id="opciones" onChange={handleGenre}>
-        <option value="Todos">Todos</option>
-        {allGenres.newGenre &&
-          allGenres.newGenre.map((genre) => (
-            <option key={genre} value={genre}>
-              {genre}
-            </option>
-          ))}
-      </select>
-
-      <select id="opciones" onChange={handleOrigin}>
-        <option value="Todos">Todos</option>
-        <option value="API">Existentes</option>
-        <option value="Database">Creados</option>
-      </select>
-
       <Navbar
         handleChange={handleChange}
         handleSubmit={handleSubmit}
         handleSorting={handleSorting}
         handleReset={handleReset}
       />
+      <div className="options">
+        <select id="opciones" onChange={handleGenre}>
+          <option value="Todos">Todos</option>
+          {allGenres.newGenre &&
+            allGenres.newGenre.map((genre) => (
+              <option key={genre} value={genre}>
+                {genre}
+              </option>
+            ))}
+        </select>
+
+        <select id="opciones" onChange={handleOrigin}>
+          <option value="Todos">Todos</option>
+          <option value="API">Existentes</option>
+          <option value="Database">Creados</option>
+        </select>
+      </div>
 
       {/* Mostrar las Cards solo si no hay mensaje de error */}
       {error && error.message && (

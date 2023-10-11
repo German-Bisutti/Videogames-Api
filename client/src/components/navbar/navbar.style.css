@@ -1,29 +1,32 @@
 .navbar {
-    border: none;
-    padding: 10px;
-    line-height: 30px;
-    margin-bottom: 30px;
-}
-
-
-.navbar-input {
+    background-color: #bae8e8;
+    display: flex;
+  }
+  
+  .navbar-input {
+    /* Tu CSS existente para el input */
     position: relative;
-    display: inline-block;
     text-align: center;
-    margin: 10px;
     padding: 10px 20px;
     font-size: 15px;
     letter-spacing: 1px;
-    color: #c3195d; 
-    background: #ffffff; 
+    color: #272343;
+    background: #ffffff;
     cursor: pointer;
     transition: ease-out 0.5s;
-    border: 2px solid #c3195d; 
+    border: 2px solid #272343;
     border-radius: 10px;
-    box-shadow: inset 0 0 0 0 #c3195d;
-}
+    box-shadow: inset 0 0 0 0 #272343;
+  }
+  
+  .navbar-input:hover {
+    /* Tu CSS existente para el hover */
+    color: #ffffff;
+    box-shadow: inset 0 -100px 0 0 #272343;
+  }
 
-.navbar-input:hover {
-    color: #ffffff; 
-    box-shadow: inset 0 -100px 0 0 #c3195d; 
-}
+  .navbar-form {
+    margin-left: auto; /* Empujará el formulario hacia la derecha */
+    display: flex;
+    align-items: center;
+  }

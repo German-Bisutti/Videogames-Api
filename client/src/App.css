@@ -18,18 +18,18 @@ button {
     padding: 10px 20px;
     font-size: 15px;
     letter-spacing: 1px;
-    color: #c3195d; 
+    color: #272343; 
     background: transparent;
     cursor: pointer;
     transition: ease-out 0.5s;
-    border: 2px solid #c3195d; 
+    border: 2px solid #272343; 
     border-radius: 10px;
-    box-shadow: inset 0 0 0 0 #c3195d; 
+    box-shadow: inset 0 0 0 0 #272343; 
 }
   
 button:hover {
     color: white;
-    box-shadow: inset 0 -100px 0 0 #c3195d;
+    box-shadow: inset 0 -100px 0 0 #272343;
 }
 
 option{
@@ -40,18 +40,18 @@ option{
     padding: 10px 20px;
     font-size: 15px;
     letter-spacing: 1px;
-    color: #c3195d; 
+    color: #272343; 
     background: transparent; 
     cursor: pointer;
     transition: ease-out 0.5s;
-    border: 2px solid #c3195d; 
+    border: 2px solid #272343; 
     border-radius: 10px;
-    box-shadow: inset 0 0 0 0 #c3195d;
+    box-shadow: inset 0 0 0 0 #272343;
 }
 
 option:hover {
     color: white;
-    box-shadow: inset 0 -100px 0 0 #c3195d; 
+    box-shadow: inset 0 -100px 0 0 #272343; 
 }
 
 select{
@@ -62,18 +62,18 @@ select{
     padding: 10px 20px;
     font-size: 15px;
     letter-spacing: 1px;
-    color: #c3195d; 
+    color: #272343; 
     background: transparent; 
     cursor: pointer;
     transition: ease-out 0.5s;
-    border: 2px solid #c3195d; 
+    border: 2px solid #272343; 
     border-radius: 10px;
-    box-shadow: inset 0 0 0 0 #c3195d;
+    box-shadow: inset 0 0 0 0 #272343;
 }
 
 select:hover {
     color: white;
-    box-shadow: inset 0 -100px 0 0 #c3195d; 
+    box-shadow: inset 0 -100px 0 0 #272343; 
 }
 
 body {
