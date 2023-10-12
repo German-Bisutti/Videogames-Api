@@ -19,12 +19,6 @@
     font-size: 30px;
     letter-spacing: 1px;
     font-weight: bold;
+    color: #ffffff;
     background: rgba(0, 0, 0, 0.7);
-}
-.landing-text {
-    padding-top: 100px;
-    text-align: center;
-    font-weight: bold; 
-    font-size: 50px;
-    color: #c3195d;
 }

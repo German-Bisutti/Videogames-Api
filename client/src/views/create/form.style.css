@@ -1,21 +1,11 @@
-.create{
-    margin: 0;
-    padding: 0;
-    background-image: url(https://www.xtrafondos.com/wallpapers/red-dead-redemption-2-the-bounty-hunter-8416.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-}
-
-.create-error{
-  color: #fa0000;
-}
-
 .login-box {
+    position: absolute;
+    top: 350%;
+    left: 50%;
     width: 400px;
     padding: 40px;
     margin: 20px auto;
+    transform: translate(-50%, -55%);
     background: rgba(0,0,0,.9);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
@@ -187,48 +177,3 @@
     color: #aaa;
     border-radius: 5px;
   }
-
-  .select {
-    width: 100%;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #fff;
-    margin-bottom: 30px;
-    border: none;
-    border-bottom: 1px solid #fff;
-    outline: none;
-    background: transparent;
-  }
-  
-  .select option {
-    background: rgba(0, 0, 0, 0.9);
-    color: #fff;
-    font-size: 16px;
-  }
-  
-  /* Estilos para el label del select */
-  .select-label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #fff;
-    pointer-events: none;
-    transition: .5s;
-  }
-  
-  /* Estilos para el label del select cuando está enfocado o tiene valor */
-  .select:focus + .select-label,
-  .select:valid + .select-label {
-    top: -20px;
-    left: 0;
-    color: #fff;
-    font-size: 12px;
-  }
-
-  .create-check {
-    color: #fff;
-  }
-
-  

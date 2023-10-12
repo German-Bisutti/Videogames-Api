@@ -17,14 +17,14 @@
   color: #ffffff; 
   background: rgba(0, 0, 0, 0.7); 
   transition: ease-out 0.5s;
-  border: 2px solid #c3195d; 
+  border: 2px solid #272343; 
   border-radius: 10px;
-  box-shadow: inset 0 0 0 0 #c3195d;
+  box-shadow: inset 0 0 0 0 #272343;
 }
 
 .paginacion-text:hover {
   color: #ffffff; 
-  box-shadow: inset 0 -100px 0 0 #c3195d; 
+  box-shadow: inset 0 -100px 0 0 #272343; 
 }
 
 .paginacion-button{

@@ -26,13 +26,13 @@ export function validation(input) {
   }
 
   if (!input.image) {
-    errors = { ...errors, image: "Falta image del videojuego" };
+    errors = { ...errors, image: "Falta imagen del videojuego" };
   } else {
     errors = { ...errors, image: "" };
   }
 
   if (!input.released) {
-    errors = { ...errors, released: "Falta versión del videojuego" };
+    errors = { ...errors, released: "Falta Fecha de lanzamiento" };
   } else {
     errors = { ...errors, released: "" };
   }
