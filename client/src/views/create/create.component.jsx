@@ -95,7 +95,7 @@ function Create() {
   return (
     <div className="create">
       <div>
-        <Link to={`/home`}>
+        <Link to={`/home`} className="button-container">
           <button>Inicio</button>
         </Link>
       </div>
@@ -179,7 +179,6 @@ function Create() {
               </label>
             </div>
             <div>
-              <label>Rating</label>
               <select
                 name="rating"
                 value={input.rating}
@@ -221,12 +220,12 @@ function Create() {
                   )}
                 </div>
               )}
-            <button type="submit">
+            <button type="submit" className="submit">
               <span></span>
               <span></span>
               <span></span>
               <span></span>
-              Submit
+              Crear
             </button>
           </form>
         </div>

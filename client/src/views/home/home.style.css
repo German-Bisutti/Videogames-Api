@@ -11,3 +11,48 @@
     background-color: #bae8e8;
     margin-bottom: 2%;
 }
+
+.custom-select option {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #272343;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #272343;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #272343;
+  }
+  
+  .custom-select option:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #272343;
+  }
+  
+  /* Estilos para el select */
+  .custom-select {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #272343;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #272343;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #272343;
+  }
+  
+  .custom-select:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #272343;
+  }

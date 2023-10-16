@@ -1,11 +1,13 @@
-.create{
-    margin: 0;
-    padding: 0;
-    background-image: url(https://www.xtrafondos.com/wallpapers/red-dead-redemption-2-the-bounty-hunter-8416.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
+.create {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://www.xtrafondos.com/wallpapers/red-dead-redemption-2-the-bounty-hunter-8416.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh; /* Asegura que el contenedor sea al menos del alto de la ventana */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  padding-bottom: 40px; /* Espacio en blanco en la parte inferior (ajusta según sea necesario) */
 }
 
 .create-error{
@@ -20,6 +22,7 @@
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
+    margin-bottom: 20px;
   }
   
   .login-box p:first-child {
@@ -231,4 +234,12 @@
     color: #fff;
   }
 
-  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .submit{
+    color: #fff;
+  }

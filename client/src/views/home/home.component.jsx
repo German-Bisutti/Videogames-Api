@@ -72,7 +72,7 @@ function Home() {
         handleReset={handleReset}
       />
       <div className="options">
-        <select id="opciones" onChange={handleGenre}>
+        <select id="opciones" className="custom-select" onChange={handleGenre}>
           <option value="Todos">Todos</option>
           {allGenres.newGenre &&
             allGenres.newGenre.map((genre) => (
@@ -82,7 +82,7 @@ function Home() {
             ))}
         </select>
 
-        <select id="opciones" onChange={handleOrigin}>
+        <select id="opciones" className="custom-select" onChange={handleOrigin}>
           <option value="Todos">Todos</option>
           <option value="API">Existentes</option>
           <option value="Database">Creados</option>
